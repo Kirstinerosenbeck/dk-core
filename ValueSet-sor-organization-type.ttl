@@ -16,7 +16,7 @@
   fhir:ValueSet.version [ fhir:value "1.1.0"];
   fhir:ValueSet.name [ fhir:value "SorOrganizationType"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-12-19T09:42:46+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-12-19T22:00:49+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Denmark"];
   fhir:ValueSet.contact [
      fhir:index 0;

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "9decc962-7082-4a41-ad52-dd1e64b24d56",
+  "id" : "fbcf606f-42a0-4ea3-8830-310625105039",
   "meta" : {
-    "lastUpdated" : "2021-12-19T09:42:46.692+00:00"
+    "lastUpdated" : "2021-12-19T22:00:49.352+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "DkCoreProfessionGroupValueSet",
       "title" : "dk-profession-group-valueset",
       "status" : "active",
-      "date" : "2021-12-19T09:42:46+00:00",
+      "date" : "2021-12-19T22:00:49+00:00",
       "publisher" : "HL7 Denmark",
       "contact" : [{
         "name" : "HL7 Denmark",
@@ -41,8 +41,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b3a11ec6-b305-48e0-8674-1c113e50393a",
-        "timestamp" : "2021-12-19T09:43:05+00:00",
+        "identifier" : "urn:uuid:bb647044-e774-4a48-a395-c709505504ff",
+        "timestamp" : "2021-12-19T22:01:06+00:00",
         "total" : 21,
         "parameter" : [{
           "name" : "excludeNested",
@@ -198,8 +198,8 @@
       }],
       "copyright" : "CC-BY-SA-4.0",
       "expansion" : {
-        "identifier" : "urn:uuid:74a8dbe7-7afc-4638-9b85-8df4e75590e7",
-        "timestamp" : "2021-12-19T09:43:05+00:00",
+        "identifier" : "urn:uuid:246b2626-bf04-4429-8d03-b09d7a973172",
+        "timestamp" : "2021-12-19T22:01:06+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -254,8 +254,8 @@
       }],
       "copyright" : "CC-BY-SA-4.0",
       "expansion" : {
-        "identifier" : "urn:uuid:c589d9a7-7efa-4499-b587-e3ccc6945b5e",
-        "timestamp" : "2021-12-19T09:43:05+00:00",
+        "identifier" : "urn:uuid:ef00e509-27e6-420d-9c3b-53999486ae8f",
+        "timestamp" : "2021-12-19T22:01:06+00:00",
         "total" : 104,
         "parameter" : [{
           "name" : "excludeNested",
@@ -829,8 +829,8 @@
       }],
       "copyright" : "CC-BY-SA-4.0",
       "expansion" : {
-        "identifier" : "urn:uuid:05a7d3d3-6363-4207-95bf-3a7ea8047a2a",
-        "timestamp" : "2021-12-19T09:43:05+00:00",
+        "identifier" : "urn:uuid:a6611e30-442e-43ab-a79b-f441c67e06df",
+        "timestamp" : "2021-12-19T22:01:06+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -906,8 +906,8 @@
       }],
       "copyright" : "CC-BY-SA-4.0",
       "expansion" : {
-        "identifier" : "urn:uuid:f4c01a9f-0a0c-4a78-a4e8-edf305c4a634",
-        "timestamp" : "2021-12-19T09:43:06+00:00",
+        "identifier" : "urn:uuid:2a5adcba-0822-408c-8d09-e801c7e4bb50",
+        "timestamp" : "2021-12-19T22:01:06+00:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1039,7 +1039,7 @@
       "version" : "1.1.0",
       "name" : "SorOrganizationType",
       "status" : "active",
-      "date" : "2021-12-19T09:42:46+00:00",
+      "date" : "2021-12-19T22:00:49+00:00",
       "publisher" : "HL7 Denmark",
       "contact" : [{
         "name" : "HL7 Denmark",
@@ -1062,8 +1062,8 @@
       }],
       "copyright" : "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
       "expansion" : {
-        "identifier" : "urn:uuid:aeb390c3-8810-423b-bd75-987cf385ecb9",
-        "timestamp" : "2021-12-19T09:43:06+00:00",
+        "identifier" : "urn:uuid:b738d3b3-9e58-49dd-a65a-75de81a52c1e",
+        "timestamp" : "2021-12-19T22:01:07+00:00",
         "total" : 68,
         "parameter" : [{
           "name" : "excludeNested",

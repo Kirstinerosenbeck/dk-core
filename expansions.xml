@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="9decc962-7082-4a41-ad52-dd1e64b24d56"/>
+  <id value="fbcf606f-42a0-4ea3-8830-310625105039"/>
   <meta>
-    <lastUpdated value="2021-12-19T09:42:46.692+00:00"/>
+    <lastUpdated value="2021-12-19T22:00:49.352+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -211,7 +211,7 @@
         <name value="DkCoreProfessionGroupValueSet"/>
         <title value="dk-profession-group-valueset"/>
         <status value="active"/>
-        <date value="2021-12-19T09:42:46+00:00"/>
+        <date value="2021-12-19T22:00:49+00:00"/>
         <publisher value="HL7 Denmark"/>
         <contact>
           <name value="HL7 Denmark"/>
@@ -233,8 +233,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b3a11ec6-b305-48e0-8674-1c113e50393a"/>
-          <timestamp value="2021-12-19T09:43:05+00:00"/>
+          <identifier value="urn:uuid:bb647044-e774-4a48-a395-c709505504ff"/>
+          <timestamp value="2021-12-19T22:01:06+00:00"/>
           <total value="21"/>
           <parameter>
             <name value="excludeNested"/>
@@ -422,8 +422,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:74a8dbe7-7afc-4638-9b85-8df4e75590e7"/>
-          <timestamp value="2021-12-19T09:43:05+00:00"/>
+          <identifier value="urn:uuid:246b2626-bf04-4429-8d03-b09d7a973172"/>
+          <timestamp value="2021-12-19T22:01:06+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1444,8 +1444,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:c589d9a7-7efa-4499-b587-e3ccc6945b5e"/>
-          <timestamp value="2021-12-19T09:43:05+00:00"/>
+          <identifier value="urn:uuid:ef00e509-27e6-420d-9c3b-53999486ae8f"/>
+          <timestamp value="2021-12-19T22:01:06+00:00"/>
           <total value="104"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2083,8 +2083,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:05a7d3d3-6363-4207-95bf-3a7ea8047a2a"/>
-          <timestamp value="2021-12-19T09:43:05+00:00"/>
+          <identifier value="urn:uuid:a6611e30-442e-43ab-a79b-f441c67e06df"/>
+          <timestamp value="2021-12-19T22:01:06+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2329,8 +2329,8 @@ This definition was based on https://www.merriam-webster.com/dictionary/common-l
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:f4c01a9f-0a0c-4a78-a4e8-edf305c4a634"/>
-          <timestamp value="2021-12-19T09:43:06+00:00"/>
+          <identifier value="urn:uuid:2a5adcba-0822-408c-8d09-e801c7e4bb50"/>
+          <timestamp value="2021-12-19T22:01:06+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
@@ -3034,7 +3034,7 @@ This definition was based on https://www.merriam-webster.com/dictionary/common-l
         <version value="1.1.0"/>
         <name value="SorOrganizationType"/>
         <status value="active"/>
-        <date value="2021-12-19T09:42:46+00:00"/>
+        <date value="2021-12-19T22:00:49+00:00"/>
         <publisher value="HL7 Denmark"/>
         <contact>
           <name value="HL7 Denmark"/>
@@ -3057,8 +3057,8 @@ This definition was based on https://www.merriam-webster.com/dictionary/common-l
         </jurisdiction>
         <copyright value="This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement"/>
         <expansion>
-          <identifier value="urn:uuid:aeb390c3-8810-423b-bd75-987cf385ecb9"/>
-          <timestamp value="2021-12-19T09:43:06+00:00"/>
+          <identifier value="urn:uuid:b738d3b3-9e58-49dd-a65a-75de81a52c1e"/>
+          <timestamp value="2021-12-19T22:01:07+00:00"/>
           <total value="68"/>
           <parameter>
             <name value="excludeNested"/>
