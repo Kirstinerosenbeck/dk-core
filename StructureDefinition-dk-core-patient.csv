@@ -46,7 +46,7 @@ It is often used to filter patient lists to exclude inactive patients
 
 Deceased patients may also be marked as inactive for the same reasons, but may be active for some time after death.","If a record is inactive, and linked to an active record, then future patient/record updates should occur on the other patient.","Need to be able to mark a patient record as not to be used because it was created in error.","","This resource is generally assumed to be active if no value is provided for the active element","","","","","",,,,,"",,,,"Patient.active",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","statusCode","n/a","FiveWs.status"
-"Patient.name","","","",1,*,"Y","","Y","HumanName {[]} {[]}
+"Patient.name","","","",0,*,"Y","","Y","HumanName {[]} {[]}
 ","A name associated with the patient","A name associated with the individual.","A patient may have multiple names with different uses or applicable periods. For animals, the name is a ""HumanName"" in the sense that is assigned and used by humans and has the same patterns.","Need to be able to track the patient by multiple names. Examples are your official name and a partner name.","","","","","","","",,,,,"","value:use}
 ","",,"open","Patient.name",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","name",".patient.name","PID-5, PID-9"
@@ -106,10 +106,10 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Patient.address.extension","municipalityCode","","",0,*,"","","","Extension {[CanonicalType[http://hl7.dk/fhir/core/StructureDefinition/dk-core-municipalityCodes]]} {[]}
-","Danish Core Municipality codes","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Danish Core Municipality codes","Identifier holding the official identifier for a danish municipality","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.address.extension","regionalSubDivisionCodes","","",0,*,"","","","Extension {[CanonicalType[http://hl7.dk/fhir/core/StructureDefinition/dk-core-RegionalSubDivisionCodes]]} {[]}
-","Danish Core Regional Sub Division Codes Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Danish Core Regional Sub Division Codes Extension","Identifier holding the official organization identifier for a danish region","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.address.use","","","",0,1,"","Y","Y","code {[]} {[]}
 ","home | work | temp | old | billing - purpose of this address","The purpose of this address.","Applications can assume that an address is current unless it explicitly says that it is temporary or old.","Allows an appropriate address to be chosen from a list of many.","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""home""/>","","",,"required","The use of an address.","http://hl7.org/fhir/ValueSet/address-use|4.0.1","",,,,"Address.use",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

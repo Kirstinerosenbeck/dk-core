@@ -1,7 +1,8 @@
 {
-  "package": "dk.fhir.ig.dk-core",
-  "version": "0.9.0",
+  "package": "hl7.fhir.dk.core",
+  "version": "1.1.0",
   "fhirVersion": "4.0.1",
+  "jurisdiction": "DK",
   "extensions": [
     {
       "url": "http://hl7.dk/fhir/core/StructureDefinition/dk-core-RegionalSubDivisionCodes",
@@ -27,10 +28,22 @@
     }
   ],
   "profiles": {
+    "Organization": [
+      {
+        "url": "http://hl7.dk/fhir/core/StructureDefinition/dk-core-organization",
+        "title": "Danish Core Organization Profile"
+      }
+    ],
     "Patient": [
       {
         "url": "http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient",
         "title": "Danish Core Patient Profile"
+      }
+    ],
+    "Practitioner": [
+      {
+        "url": "http://hl7.dk/fhir/core/StructureDefinition/dk-core-practitioner",
+        "title": "Danish Core Practitioner Profile"
       }
     ]
   },

@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>DK.FHIR.IG.DK-CORE\administrative-gender-supplement - XML Representation - FHIR v4.0.1</title>
+    <title>HL7.FHIR.DK.CORE\administrative-gender-supplement - XML Representation - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -21,6 +21,7 @@
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7-dk.css" rel="stylesheet"/>
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
@@ -41,15 +42,23 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.13"}
-    h3,h4,h5,h6{--heading-prefix:"7.13"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.21"}
+    h3,h4,h5,h6{--heading-prefix:"7.21"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
 
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="https://www.hl7.dk">
+            <img height="50" alt="Visit the HL7 Danish website" src="assets/images/HL7_Denmark.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>        
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: DK Core</span><br/>0.9.0 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR Implementation Guide: DK Core</span><br/>1.1.0 - release</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -69,15 +78,33 @@
             </button>
             <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
-  <li><a href="toc.html">Table of Contents</a></li>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="guidance.html">Guidance</a></li>
-  <li><a href="profiles.html">Profiles</a></li>
-  <li><a href="extensions.html">Extensions</a></li>
-  <li><a href="terminology.html">Terminology</a></li>
-  <li><a href="artifacts.html">Artifacts</a></li>
-  <li><a href="downloads.html">Downloads</a></li>
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="guidance.html">Guidance</a>
+  </li>
+  <li>
+    <a href="profiles.html">Profiles</a>
+  </li>
+  <li>
+    <a href="extensions.html">Extensions</a>
+  </li>
+  <li>
+    <a href="terminology.html">Terminology</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -103,7 +130,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">HL7 FHIR Implementation Guide: DK Core - Local Development build (v0.9.0). See the <a href="http://hl7.dk/fhir/core/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">HL7 FHIR Implementation Guide: DK Core - Local Development build (v1.1.0). See the <a href="http://hl7.dk/fhir/core/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -164,11 +191,11 @@
   &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p/&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;male&lt;a name=&quot;administrative-gender-supplement-male&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;female&lt;a name=&quot;administrative-gender-supplement-female&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;other&lt;a name=&quot;administrative-gender-supplement-other&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;unknown&lt;a name=&quot;administrative-gender-supplement-unknown&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Additional Language Displays&lt;/b&gt;&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dansk (Danish, da)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;male&lt;/td&gt;&lt;td&gt;Mand&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;female&lt;/td&gt;&lt;td&gt;Kvinde&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;other&lt;/td&gt;&lt;td&gt;Andet&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unknown&lt;/td&gt;&lt;td&gt;Ukendt&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p/&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=&quot;white-space:nowrap&quot; href=&quot;http://hl7.org/fhir/R4/codesystem-administrative-gender.html#male&quot;&gt;male&lt;/a&gt;&lt;a name=&quot;administrative-gender-supplement-male&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=&quot;white-space:nowrap&quot; href=&quot;http://hl7.org/fhir/R4/codesystem-administrative-gender.html#female&quot;&gt;female&lt;/a&gt;&lt;a name=&quot;administrative-gender-supplement-female&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=&quot;white-space:nowrap&quot; href=&quot;http://hl7.org/fhir/R4/codesystem-administrative-gender.html#other&quot;&gt;other&lt;/a&gt;&lt;a name=&quot;administrative-gender-supplement-other&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a style=&quot;white-space:nowrap&quot; href=&quot;http://hl7.org/fhir/R4/codesystem-administrative-gender.html#unknown&quot;&gt;unknown&lt;/a&gt;&lt;a name=&quot;administrative-gender-supplement-unknown&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Additional Language Displays&lt;/b&gt;&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dansk (Danish, da)&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;male&lt;/td&gt;&lt;td&gt;Mand&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;female&lt;/td&gt;&lt;td&gt;Kvinde&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;other&lt;/td&gt;&lt;td&gt;Andet&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;unknown&lt;/td&gt;&lt;td&gt;Ukendt&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>
        <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.dk/fhir/core/CodeSystem/administrative-gender-supplement&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.9.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1.1.0&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AdministrativeGenderDkSupplement&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;draft&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
@@ -191,6 +218,7 @@
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;DK&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Denmark&quot;/&gt;
     &lt;/coding&gt;
   &lt;/jurisdiction&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.copyright">copyright</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;CC-BY-SA-4.0&quot;/&gt;
@@ -254,7 +282,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.dk">HL7 Denmark</a>.  Package dk.fhir.ig.dk-core#0.9.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Nov 6, 2021 18:02+0000">2021-11-06</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.dk">HL7 Denmark</a>.  Package hl7.fhir.dk.core#1.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Dec 19, 2021 09:42+0000">2021-12-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
