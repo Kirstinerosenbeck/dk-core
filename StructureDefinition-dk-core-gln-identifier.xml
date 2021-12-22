@@ -10,11 +10,11 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://hl7.dk/fhir/core/StructureDefinition/dk-core-gln-identifier"/>
-  <version value="1.1.0"/>
+  <version value="1.2.0"/>
   <name value="GLNIdentifier"/>
   <title value="GLN Identifier"/>
   <status value="draft"/>
-  <date value="2021-12-19T22:00:49+00:00"/>
+  <date value="2021-12-22T12:57:41+00:00"/>
   <publisher value="HL7 Denmark"/>
   <contact>
     <name value="HL7 Denmark"/>

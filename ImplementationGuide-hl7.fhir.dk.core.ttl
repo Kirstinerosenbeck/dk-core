@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>DKCore</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.dk/fhir/core/ImplementationGuide/hl7.fhir.dk.core</pre><div><p>A FHIR Implementation Guide for the Danish common needs across healthcare sectors</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://hl7.dk/fhir/core/ImplementationGuide/hl7.fhir.dk.core"];
-  fhir:ImplementationGuide.version [ fhir:value "1.1.0"];
+  fhir:ImplementationGuide.version [ fhir:value "1.2.0"];
   fhir:ImplementationGuide.name [ fhir:value "DKCore"];
   fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR Implementation Guide: DK Core"];
-  fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-19T22:00:49+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.status [ fhir:value "draft"];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-22T12:57:41+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Denmark"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -70,7 +70,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "release" ]
+         fhir:Extension.valueString [ fhir:value "ci-build" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [

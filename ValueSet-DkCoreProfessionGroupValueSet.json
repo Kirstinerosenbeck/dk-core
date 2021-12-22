@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-DkCoreProfessionGroupCodes.html\"><code>http://hl7.dk/fhir/core/CodeSystem/DkCoreProfessionGroupCodes</code></a></li></ul></div>"
   },
   "url": "http://hl7.dk/fhir/core/ValueSet/DkCoreProfessionGroupValueSet",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "name": "DkCoreProfessionGroupValueSet",
   "title": "dk-profession-group-valueset",
   "status": "active",
-  "date": "2021-12-19T22:00:49+00:00",
+  "date": "2021-12-22T12:57:41+00:00",
   "publisher": "HL7 Denmark",
   "contact": [
     {
